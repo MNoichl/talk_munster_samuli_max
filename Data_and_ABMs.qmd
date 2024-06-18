@@ -55,6 +55,7 @@ max-scale: 1.6
 
 # Data sources
 
+* Citations *vs.* Text
 * Web of Science ($$$)
 * Scopus ($$)
 * Dimensions ($$)
@@ -71,6 +72,10 @@ max-scale: 1.6
 
 # {background-iframe="https://maxnoichl.eu/full/maps_paris/kuramoto_map_for_paris_occurence.html" background-interactive="true"}
 
+# How to do it
+* Just run it on the network. :)
+* Make up networks with realistic params (Block-Models, ERGM)
+* Replication patterns vs. actually fitting.
 
 # 
 
@@ -80,7 +85,6 @@ max-scale: 1.6
 <h1>Thank you!</h1>
 </div>
 
-# Connecting ABMs with empirical data 
 
 ...
 
