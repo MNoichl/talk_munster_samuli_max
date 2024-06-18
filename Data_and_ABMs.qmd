@@ -64,10 +64,13 @@ max-scale: 1.6
 
 # What we've tried...
 
-
 # The emergence of computational social science:
 
-![network_structures.png]
+![](images/network_structures.png){.fragment width=100% fig-align="center"}
+
+
+# {background-iframe="https://maxnoichl.eu/full/maps_paris/kuramoto_map_for_paris_occurence.html" background-interactive="true"}
+
 
 # 
 
