@@ -55,9 +55,9 @@ max-scale: 1.6
 
 # Data sources
 
-* Web of Science
-* Scopus
-* Dimensions 
+* Web of Science ($$$)
+* Scopus ($$)
+* Dimensions ($$)
 * Crossref
 * [OpenAlex](https://openalex.org)
 
