@@ -50,13 +50,16 @@ max-scale: 1.6
 # Why would we even want data?
 
 * We *are* sometimes interested in empirical questions.
-* Is it relevant to the phenomenon? Are we in the proper problem-space?
+* Is my model relevant to the phenomenon? Are we in the proper problem-space?
 
 
 # Data sources
 
 * Web of Science
-* 
+* Scopus
+* Dimensions 
+* Crossref
+* [OpenAlex](https://openalex.org)
 
 
 # What we've tried...
