@@ -65,7 +65,9 @@ max-scale: 1.6
 # What we've tried...
 
 
+# The emergence of computational social science:
 
+![network_structures.png]
 
 # 
 
