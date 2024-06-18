@@ -75,7 +75,7 @@ max-scale: 1.6
 # How to do it?
 * Just run the ABM on the network. :)
 * Make up networks with realistic params (Block-Models, ERGM)
-* Replication patterns vs. actually fitting.
+* Replicating patterns in data vs. actually fitting.
 * Can you sample networks from text-embeddings?
 * Dimensionality-reduction -> spatial ABMs
 
