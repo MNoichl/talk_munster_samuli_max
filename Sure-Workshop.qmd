@@ -1,0 +1,70 @@
+---
+title: "Data, Data, Data"
+author: "Samuli and Max"
+institute: ""
+date: 2024-6-18
+
+format: 
+    revealjs:
+        template-partials:
+            - title-slide.html
+        title-slide-attributes:
+            data-background-image: images/background_failure.png
+            data-background-size: cover
+            data-background-opacity: "1."
+
+        theme: [default, custom.scss]
+        navigation-mode: vertical
+        include-in-header:  
+            text: |
+                <style>
+                .center-xy {
+                margin: 0;
+                position: absolute;
+                top: 50%;
+                
+                -ms-transform: translate(-50%, -50%);
+                transform: translate(-50%, -50%);
+                width: auto; /* Maintain aspect ratio */
+                height: auto; /* Maintain aspect ratio */
+                box-sizing: border-box; /* Include padding/border in size */
+                max-height: none;
+                }
+                </style>
+        auto-stretch: false
+        incremental: true 
+bibliography: my_lib.bib
+csl: the-journal-of-modern-history.csl
+cite-method: citeproc
+dependencies:
+  - "custom.scss"
+controls: true
+width: 1400 # 1060
+height: 1000 # 700
+margin: 0.15 # 1
+min-scale: 0.2
+max-scale: 1.6
+# background-image: "images/background_egg.png"
+---
+
+# Why would we even want data?
+
+* We *are* sometimes interested in empirical questions.
+* Is it relevant to the phenomenon? Are we in the proper problem-space?
+
+
+# What we've tried...
+
+
+
+
+# 
+
+![](images/programming_owl_transparent.png){width=100% fig-align="center"}
+
+<div style="text-align: center;">
+<h1>Thank you!</h1>
+</div>
+
+# Literature
+
