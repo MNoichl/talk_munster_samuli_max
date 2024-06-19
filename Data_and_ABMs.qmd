@@ -124,10 +124,3 @@ How to connect ABMs to Data?
 <h1>Thank you!</h1>
 </div>
 
-
-
-
-...
-
-# Literature
-
