@@ -1,8 +1,8 @@
 ---
 title: "Data, Data, Data"
-author: "Samuli and Max"
+author: "Samuli Reijula & Max Noichl"
 institute: ""
-date: 2024-6-18
+date: 2024-6-19
 
 format: 
     revealjs:
@@ -51,6 +51,7 @@ max-scale: 1.6
 
 * We *are* sometimes interested in empirical questions.
 * Is my model relevant to the phenomenon? Are we in the proper problem-space?
+* There *is* interest in policy proposals.
 
 
 # Data sources
@@ -63,21 +64,57 @@ max-scale: 1.6
 * [OpenAlex](https://openalex.org)
 
 
-# What we've tried...
+# {background-iframe="https://openalex.org/" background-interactive="true"}
 
-# The emergence of computational social science:
+#
+::: {.r-fit-text}
+What we've tried
+:::
+::: {.r-fit-text}
+with OpenAlex Data
+:::
 
-![](images/network_structures.png){.fragment width=100% fig-align="center"}
+#
+::: {.r-fit-text}
+The emergence of
+:::
+::: {.r-fit-text}
+Computational Social Science 
+:::
 
+#
+![](images/network_structures.png){width=60% fig-align="center"}
 
 # {background-iframe="https://maxnoichl.eu/full/maps_paris/kuramoto_map_for_paris_occurence.html" background-interactive="true"}
 
-# How to do it?
-* Just run the ABM on the network. :)
-* Make up networks with realistic params (Block-Models, ERGM)
-* Replicating patterns in data vs. actually fitting.
+
+
+#
+::: {.r-fit-text}
+How to connect ABMs to Data?
+:::
+
+
+#
+![](images/network_perceptron.png){width=60% fig-align="center" style="margin-top: -20%;"}
+
+# How to connect ABMs to Data?
+* Just run the ABM on the citation network...
+* Make up networks with realistic params (Network-generation (Holme-Kim), Block-Models, ERGM)
+* Replication patterns in data vs. actually fitting.
 * Can you sample networks from text-embeddings?
-* Dimensionality-reduction -> spatial ABMs
+* Dimensionality-reduction → spatial ABMs
+
+#
+![](images/%E2%80%8ESFI%20AGWCSS.%E2%80%8E001.png){width=130% fig-align="center"}
+
+
+
+
+# {background-iframe="https://euroscisci.net/" background-interactive="true"}
+
+
+
 
 # 
 
@@ -86,6 +123,8 @@ max-scale: 1.6
 <div style="text-align: center;">
 <h1>Thank you!</h1>
 </div>
+
+
 
 
 ...

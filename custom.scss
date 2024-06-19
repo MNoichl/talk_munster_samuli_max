@@ -132,3 +132,20 @@ span.citation, span.citation *  {
 
 // @import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Cormorant:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Vollkorn+SC:wght@400;600;700;900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    background-color: #yourColor; /* Replace #yourColor with the desired background color */
+    overflow: hidden;
+}
+
+.reveal .remove_background {
+    display: block;
+    width: 100%;
+    height: auto;
+    mix-blend-mode: multiply; /* This blends the image with the background color */
+}
