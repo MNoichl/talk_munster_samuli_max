@@ -10,9 +10,9 @@
 <link href="Data_and_ABMs_files/libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.4.554">
 
-  <meta name="author" content="Samuli Reijula &amp; Max Noichl">
+  <meta name="author" content="Hein Duijf, Max Noichl &amp; Ignacio Quintaja">
   <meta name="dcterms.date" content="2024-06-19">
-  <title>Data, Data, Data</title>
+  <title>Something something powerlaws</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -30,7 +30,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="Data_and_ABMs_files/libs/revealjs/dist/theme/quarto.css">
   <link href="Data_and_ABMs_files/libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="Data_and_ABMs_files/libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -342,113 +362,64 @@
 
 <section id="title-slide" data-background-image="images/background_failure.png" data-background-opacity="1." data-background-size="cover" class="center">
     
-    <h1 class="title">Data, Data, Data</h1>
-        <p class="author">Samuli Reijula &amp; Max Noichl</p>
+    <h1 class="title">Something something powerlaws</h1>
+        <p class="author">Hein Duijf, Max Noichl &amp; Ignacio Quintaja</p>
         <p class="institute"></p>
         <p class="date">2024-06-19</p>
     </section>
-<section id="why-would-we-even-want-data" class="title-slide slide level1 center">
-<h1>Why would we even want data?</h1>
+<section id="general-introduction" class="title-slide slide level1 center">
+<h1>General Introduction</h1>
 <ul>
-<li class="fragment">We <em>are</em> sometimes interested in empirical questions.</li>
-<li class="fragment">Is my model relevant to the phenomenon? Are we in the proper problem-space?</li>
-<li class="fragment">There <em>is</em> interest in policy proposals.</li>
+<li class="fragment">Something about what people in the literature have been doing and what do we do differently</li>
+<li class="fragment">dsafadsdf <span class="citation" data-cites="bieriWasBleibtAnalytischen2007">Peter Bieri <a href="#/section-1" role="doc-biblioref" onclick=""><span>“<span>Was bleibt von der analytischen Philosophie?</span>”</span> <em>Deutsche Zeitschrift f<span>ü</span>r Philosophie</em> 55, no. 3 (January 2007)</a>.</span></li>
 </ul>
 </section>
 
-<section id="data-sources" class="title-slide slide level1 center">
-<h1>Data sources</h1>
+<section id="section" class="title-slide slide level1 center">
+<h1></h1>
+<div class="r-fit-text">
+<p>Dow does <span class="highlight"> Degree Distribution </span></p>
+</div>
+<div class="r-fit-text">
+<p>affect the epistemic performance of</p>
+</div>
+<div class="r-fit-text">
+<p>networked communities?</p>
+</div>
+</section>
+
+<section id="main-points" class="title-slide slide level1 center">
+<h1>Main points</h1>
 <ul>
-<li class="fragment">Citations <em>vs.</em> Text</li>
-<li class="fragment">Web of Science ($$$)</li>
-<li class="fragment">Scopus ($$)</li>
-<li class="fragment">Dimensions ($$)</li>
-<li class="fragment">Crossref</li>
-<li class="fragment"><a href="https://openalex.org">OpenAlex</a></li>
+<li class="fragment">There is a significant effect of randomizing, on empirical networks. This is one philosophical conversation.</li>
+<li class="fragment">There does not seem to be an effect in randomizing, for generated/simulated networks. This is another philosophical conversation.</li>
 </ul>
 </section>
 
-<section id="section" class="title-slide slide level1 center" data-background-iframe="https://openalex.org/" data-background-interactive="true">
-<h1></h1>
-
+<section id="methods" class="title-slide slide level1 center">
+<h1>Methods</h1>
+<p>We simulate a very specific philsci scenario, namely when the community has a default theory and there is a competitor entering the game. Also this is tied to the philosophical examples we picked. We consider randomizing networks as the main method. We run simulations on randomly generated networks, preferential attachment (but maybe we can quickly run a few more just for completeness)</p>
+<p>We run simulations on empirical networks.</p>
 </section>
 
-<section id="section-1" class="title-slide slide level1 center">
-<h1></h1>
-<div class="r-fit-text">
-<p>What we’ve tried</p>
-</div>
-<div class="r-fit-text">
-<p>with OpenAlex Data</p>
-</div>
+<section id="results-on-simulated-networks-2-slides" class="title-slide slide level1 center">
+<h1>Results on Simulated Networks (~ 2 slides)</h1>
+<p>Show results (pretty plots are valuable here), namely now effect. (We can try a few more simulations here too) Brief discussion on the fact that the parameter space is too big, and the simulated networks can be very different from real life networks.</p>
 </section>
 
-<section id="section-2" class="title-slide slide level1 center">
-<h1></h1>
-<div class="r-fit-text">
-<p>The emergence of</p>
-</div>
-<div class="r-fit-text">
-<p>Computational Social Science</p>
-</div>
+<section id="results-on-empirical-networks-5-slides" class="title-slide slide level1 center">
+<h1>Results on Empirical Networks (~ 5 slides)</h1>
+<p>Explain the two case studies that we selected, and why. Show visualizations of the networks, and the loglog plots. Emphasize how unequally distributed they are. Show pretty plots of the results. Brief discussion of what might explain the effects, as a segway to the next section.</p>
 </section>
 
-<section id="section-3" class="title-slide slide level1 center">
-<h1></h1>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/network_structures.png" class="quarto-figure quarto-figure-center" style="width:60.0%"></p>
-</figure>
-</div>
+<section id="discussion-5-slides" class="title-slide slide level1 center">
+<h1>Discussion (~5 slides)</h1>
+<p>Proper discussion on what explains the effects, how robust the results are, and how to move forward with the research question. I am not entirely sure what explains the effects. Proper discussion of the fact that how possibly explanations might be deceiving, and that empirically informed approaches are better.</p>
+<!-- #
+![](images/%E2%80%8ESFI%20AGWCSS.%E2%80%8E001.png){width=130% fig-align="center"} -->
 </section>
 
-<section id="section-4" class="title-slide slide level1 center" data-background-iframe="https://maxnoichl.eu/full/maps_paris/kuramoto_map_for_paris_occurence.html" data-background-interactive="true">
-<h1></h1>
-
-</section>
-
-<section id="section-5" class="title-slide slide level1 center">
-<h1></h1>
-<div class="r-fit-text">
-<p>How to connect ABMs to Data?</p>
-</div>
-</section>
-
-<section id="section-6" class="title-slide slide level1 center">
-<h1></h1>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/network_perceptron.png" class="quarto-figure quarto-figure-center" style="margin-top: -20%;;width:60.0%"></p>
-</figure>
-</div>
-</section>
-
-<section id="how-to-connect-abms-to-data" class="title-slide slide level1 center">
-<h1>How to connect ABMs to Data?</h1>
-<ul>
-<li class="fragment">Just run the ABM on the citation network…</li>
-<li class="fragment">Make up networks with realistic params (Network-generation (Holme-Kim), Block-Models, ERGM)</li>
-<li class="fragment">Replication patterns in data vs.&nbsp;actually fitting.</li>
-<li class="fragment">Can you sample networks from text-embeddings?</li>
-<li class="fragment">Dimensionality-reduction → spatial ABMs</li>
-</ul>
-</section>
-
-<section id="section-7" class="title-slide slide level1 center">
-<h1></h1>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/%E2%80%8ESFI%20AGWCSS.%E2%80%8E001.png" class="quarto-figure quarto-figure-center" style="width:130.0%"></p>
-</figure>
-</div>
-</section>
-
-<section id="section-8" class="title-slide slide level1 center" data-background-iframe="https://euroscisci.net/" data-background-interactive="true">
-<h1></h1>
-
-</section>
-
-<section id="section-9" class="title-slide slide level1 center">
+<section id="section-1" class="title-slide slide level1 smaller scrollable">
 <h1></h1>
 <div class="quarto-figure quarto-figure-center">
 <figure>
@@ -463,6 +434,11 @@ Thank you!
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-bieriWasBleibtAnalytischen2007" class="csl-entry" role="listitem">
+Bieri, Peter. <span>“<a href="https://doi.org/10.1524/dzph.2007.55.3.333"><span>Was bleibt von der analytischen Philosophie?</span></a>”</span> <em>Deutsche Zeitschrift f<span>ü</span>r Philosophie</em> 55, no. 3 (January 2007).
 </div>
 </div>
 </section>

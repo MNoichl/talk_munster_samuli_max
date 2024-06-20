@@ -1,6 +1,6 @@
 ---
-title: "Data, Data, Data"
-author: "Samuli Reijula & Max Noichl"
+title: "Something something powerlaws"
+author: "Hein Duijf, Max Noichl & Ignacio Quintaja"
 institute: ""
 date: 2024-6-19
 
@@ -47,71 +47,61 @@ max-scale: 1.6
 # background-image: "images/background_egg.png"
 ---
 
-# Why would we even want data?
 
-* We *are* sometimes interested in empirical questions.
-* Is my model relevant to the phenomenon? Are we in the proper problem-space?
-* There *is* interest in policy proposals.
+# General Introduction
 
-
-# Data sources
-
-* Citations *vs.* Text
-* Web of Science ($$$)
-* Scopus ($$)
-* Dimensions ($$)
-* Crossref
-* [OpenAlex](https://openalex.org)
-
-
-# {background-iframe="https://openalex.org/" background-interactive="true"}
+* Something about what people in the literature have been doing and what do we do differently
+* dsafadsdf
+@bieriWasBleibtAnalytischen2007
 
 #
 ::: {.r-fit-text}
-What we've tried
+Dow does <span class="highlight"> Degree Distribution </span>
 :::
 ::: {.r-fit-text}
-with OpenAlex Data
-:::
-
-#
-::: {.r-fit-text}
-The emergence of
+affect the epistemic performance of
 :::
 ::: {.r-fit-text}
-Computational Social Science 
+networked communities?
 :::
 
-#
-![](images/network_structures.png){width=60% fig-align="center"}
+# Main points
+* There is a significant effect of randomizing, on empirical networks. This is one philosophical conversation.
+* There does not seem to be an effect in randomizing, for generated/simulated networks. This is another philosophical conversation.
 
-# {background-iframe="https://maxnoichl.eu/full/maps_paris/kuramoto_map_for_paris_occurence.html" background-interactive="true"}
-
-
-
-#
-::: {.r-fit-text}
-How to connect ABMs to Data?
-:::
+# Methods
+We simulate a very specific philsci scenario, namely when the community has a default theory and there is a competitor entering the game. Also this is tied to the philosophical examples we picked.
+We consider randomizing networks as the main method.
+We run simulations on randomly generated networks, preferential attachment (but maybe we can quickly run a few more just for completeness)
 
 
-#
-![](images/network_perceptron.png){width=60% fig-align="center" style="margin-top: -20%;"}
-
-# How to connect ABMs to Data?
-* Just run the ABM on the citation network...
-* Make up networks with realistic params (Network-generation (Holme-Kim), Block-Models, ERGM)
-* Replication patterns in data vs. actually fitting.
-* Can you sample networks from text-embeddings?
-* Dimensionality-reduction → spatial ABMs
-
-#
-![](images/%E2%80%8ESFI%20AGWCSS.%E2%80%8E001.png){width=130% fig-align="center"}
+We run simulations on empirical networks.
 
 
+# Results on Simulated Networks (~ 2 slides)
+
+Show results (pretty plots are valuable here), namely now effect. (We can try a few more simulations here too)
+Brief discussion on the fact that the parameter space is too big, and the simulated networks can be very different from real life networks.
+
+# Results on Empirical Networks (~ 5 slides)
+
+Explain the two case studies that we selected, and why.
+Show visualizations of the networks, and the loglog plots. Emphasize how unequally distributed they are.
+Show pretty plots of the results.
+Brief discussion of what might explain the effects, as a segway to the next section.
+
+# Discussion (~5 slides)
+Proper discussion on what explains the effects, how robust the results are, and how to move forward with the research question. 
+I am not entirely sure what explains the effects.
+Proper discussion of the fact that how possibly explanations might be deceiving, and that empirically informed approaches are better.
 
 
-# {background-iframe="https://euroscisci.net/" background-interactive="true"}
+
+
+
+<!-- #
+![](images/%E2%80%8ESFI%20AGWCSS.%E2%80%8E001.png){width=130% fig-align="center"} -->
+
 
 
 
